@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 1opx;
+    right: 30px;
+    cursor: s-resize;
+    color: black;
+}
+img{
+    height: 250px;
+    width: 250px;
+    right: 100px;
+}
+#home_1{
+    background-color: yellow;
+}
+#home_2{
+    background-color: red;
+}
+
