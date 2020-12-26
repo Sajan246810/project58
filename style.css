@@ -2,13 +2,11 @@ body{
     text-align: center;
 }
 .menu{
-    list-style: none;
-    font-family: cursive;
-    float: right;
-    top: 1opx;
-    right: 30px;
-    cursor: s-resize;
-    color: black;
+   position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
 }
 img{
     height: 250px;
@@ -28,4 +26,45 @@ img{
 }
 img:hover{
     transform: scale(0.9);
+}
+
+.link{
+    display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+#character{
+    background: indianred;
+    
+}
+#work {
+    background: orange;
+}
+#insp{
+    background: green;
+}
+#contact{
+    background: violet;
 }
